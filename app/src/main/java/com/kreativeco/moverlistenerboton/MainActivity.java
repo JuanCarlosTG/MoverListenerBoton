@@ -78,6 +78,14 @@ public class MainActivity extends Activity {
             params.leftMargin = margin;
 
             mButton.setLayoutParams(params);
+
+        }
+         private void getXButton(){
+             mButton.getX();
+         }
+
+        private void getYButton(){
+            mButton.getY();
         }
 
     }
